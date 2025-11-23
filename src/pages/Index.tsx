@@ -69,7 +69,7 @@ const Index = () => {
               className="mb-8 text-center max-w-3xl mx-auto"
             >
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Bienvenido al rincón más dulce de Sin Gluten PEV. Aquí descubrirás que comer 
+                Bienvenido al rincón más dulce de Recetas de Matilda. Aquí descubrirás que comer 
                 saludable no significa renunciar al placer. Este recetario reúne creaciones 
                 pensadas para disfrutar con el corazón tranquilo y el paladar feliz.
               </p>
