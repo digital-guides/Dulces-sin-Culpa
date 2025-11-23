@@ -140,10 +140,10 @@ const Index = () => {
       <footer className="bg-muted mt-16 py-8 no-print">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Sin Gluten PEV · Dulces sin Culpa
+            © {new Date().getFullYear()} Recetas de Matilda · Dulces sin Culpa
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            48 recetas sin gluten para disfrutar sin remordimientos
+            Recetas sin gluten para disfrutar sin remordimientos
           </p>
         </div>
       </footer>
