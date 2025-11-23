@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        cookbook: {
+          warm: "hsl(var(--cookbook-warm))",
+          cream: "hsl(var(--cookbook-cream))",
+          coffee: "hsl(var(--cookbook-coffee))",
+          cinnamon: "hsl(var(--cookbook-cinnamon))",
+          honey: "hsl(var(--cookbook-honey))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
