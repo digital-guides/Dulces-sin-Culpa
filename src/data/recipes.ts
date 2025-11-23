@@ -35,13 +35,15 @@ export const categories = [
     title: 'Galletas, cookies y bocaditos',
     description: 'Crocantes, suaves o con chips… perfectas para acompañar un café o regalar.',
     icon: '🍪',
-    color: 'from-yellow-400 to-amber-500'
+    color: 'from-yellow-400 to-amber-500',
+    image: '/images/bloque-4.webp'
   }
 ];
 
 import { bloque1Recipes } from './bloque1-recipes';
 import { bloque2Recipes } from './bloque2-recipes';
 import { bloque3Recipes } from './bloque3-recipes';
+import { bloque4Recipes } from './bloque4-recipes';
 
 export const recipes: Recipe[] = [
   // Bloque 1
@@ -87,16 +89,16 @@ export const recipes: Recipe[] = [
   { id: 'b3-12', title: 'Pudding de avena y cacao', category: 'bloque-3', content: bloque3Recipes['b3-12'] },
   
   // Bloque 4
-  { id: 'b4-1', title: 'Cookies de avena y chips de chocolate sin gluten', category: 'bloque-4' },
-  { id: 'b4-2', title: 'Galletas de almendra y miel', category: 'bloque-4' },
-  { id: 'b4-3', title: 'Galletas de limón con glaseado ligero', category: 'bloque-4' },
-  { id: 'b4-4', title: 'Cookies de mantequilla de maní (sin azúcar)', category: 'bloque-4' },
-  { id: 'b4-5', title: 'Galletas integrales de avena y pasas', category: 'bloque-4' },
-  { id: 'b4-6', title: 'Galletas de cacao y coco rallado', category: 'bloque-4' },
-  { id: 'b4-7', title: 'Biscotti de almendra y naranja', category: 'bloque-4' },
-  { id: 'b4-8', title: 'Galletas de canela y vainilla', category: 'bloque-4' },
-  { id: 'b4-9', title: 'Cookies proteicas de avena y semillas', category: 'bloque-4' },
-  { id: 'b4-10', title: 'Galletas festivas con especias', category: 'bloque-4' },
-  { id: 'b4-11', title: 'Galletas suaves de manzana', category: 'bloque-4' },
-  { id: 'b4-12', title: 'Bocaditos energéticos de dátil y cacao', category: 'bloque-4' }
+  { id: 'b4-1', title: 'Cookies de avena y chips de chocolate sin gluten', category: 'bloque-4', content: bloque4Recipes['b4-1'] },
+  { id: 'b4-2', title: 'Galletas de almendra y miel', category: 'bloque-4', content: bloque4Recipes['b4-2'] },
+  { id: 'b4-3', title: 'Galletas de limón con glaseado ligero', category: 'bloque-4', content: bloque4Recipes['b4-3'] },
+  { id: 'b4-4', title: 'Cookies de mantequilla de maní (sin azúcar)', category: 'bloque-4', content: bloque4Recipes['b4-4'] },
+  { id: 'b4-5', title: 'Galletas integrales de avena y pasas', category: 'bloque-4', content: bloque4Recipes['b4-5'] },
+  { id: 'b4-6', title: 'Galletas de cacao y coco rallado', category: 'bloque-4', content: bloque4Recipes['b4-6'] },
+  { id: 'b4-7', title: 'Biscotti de almendra y naranja', category: 'bloque-4', content: bloque4Recipes['b4-7'] },
+  { id: 'b4-8', title: 'Galletas de canela y vainilla', category: 'bloque-4', content: bloque4Recipes['b4-8'] },
+  { id: 'b4-9', title: 'Cookies proteicas de avena y semillas', category: 'bloque-4', content: bloque4Recipes['b4-9'] },
+  { id: 'b4-10', title: 'Galletas festivas con especias', category: 'bloque-4', content: bloque4Recipes['b4-10'] },
+  { id: 'b4-11', title: 'Galletas suaves de manzana', category: 'bloque-4', content: bloque4Recipes['b4-11'] },
+  { id: 'b4-12', title: 'Bocaditos energéticos de dátil y cacao', category: 'bloque-4', content: bloque4Recipes['b4-12'] }
 ];
