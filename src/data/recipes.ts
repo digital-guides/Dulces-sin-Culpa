@@ -19,7 +19,8 @@ export const categories = [
     title: 'Tortas y muffins fit',
     description: 'Tortas húmedas, muffins y budines que combinan placer con nutrición.',
     icon: '🎂',
-    color: 'from-rose-400 to-pink-500'
+    color: 'from-rose-400 to-pink-500',
+    image: '/images/bloque-2.webp'
   },
   {
     id: 'bloque-3',
@@ -38,6 +39,7 @@ export const categories = [
 ];
 
 import { bloque1Recipes } from './bloque1-recipes';
+import { bloque2Recipes } from './bloque2-recipes';
 
 export const recipes: Recipe[] = [
   // Bloque 1
@@ -55,18 +57,18 @@ export const recipes: Recipe[] = [
   { id: 'b1-12', title: 'Bizcochuelo proteico de claras y almendra', category: 'bloque-1', content: bloque1Recipes['b1-12'] },
   
   // Bloque 2
-  { id: 'b2-1', title: 'Torta húmeda de cacao y remolacha', category: 'bloque-2' },
-  { id: 'b2-2', title: 'Muffins de zanahoria y nuez (sin azúcar)', category: 'bloque-2' },
-  { id: 'b2-3', title: 'Torta de almendra y naranja (sin lácteos)', category: 'bloque-2' },
-  { id: 'b2-4', title: 'Budín integral de avena y manzana', category: 'bloque-2' },
-  { id: 'b2-5', title: 'Muffins de arándanos sin harina de trigo', category: 'bloque-2' },
-  { id: 'b2-6', title: 'Torta "Red Velvet" saludable', category: 'bloque-2' },
-  { id: 'b2-7', title: 'Budín proteico de yogur y frutos secos', category: 'bloque-2' },
-  { id: 'b2-8', title: 'Torta de cacao y calabaza (sin mantequilla)', category: 'bloque-2' },
-  { id: 'b2-9', title: 'Mini tortas de coco y limón', category: 'bloque-2' },
-  { id: 'b2-10', title: 'Muffins de cacao y banana (sin azúcar refinada)', category: 'bloque-2' },
-  { id: 'b2-11', title: 'Budín de avena, pasas y miel', category: 'bloque-2' },
-  { id: 'b2-12', title: 'Torta húmeda de manzana y avena', category: 'bloque-2' },
+  { id: 'b2-1', title: 'Torta húmeda de cacao y remolacha', category: 'bloque-2', content: bloque2Recipes['b2-1'] },
+  { id: 'b2-2', title: 'Muffins de zanahoria y nuez (sin azúcar)', category: 'bloque-2', content: bloque2Recipes['b2-2'] },
+  { id: 'b2-3', title: 'Torta de almendra y naranja (sin lácteos)', category: 'bloque-2', content: bloque2Recipes['b2-3'] },
+  { id: 'b2-4', title: 'Budín integral de avena y manzana', category: 'bloque-2', content: bloque2Recipes['b2-4'] },
+  { id: 'b2-5', title: 'Muffins de arándanos sin harina de trigo', category: 'bloque-2', content: bloque2Recipes['b2-5'] },
+  { id: 'b2-6', title: 'Torta "Red Velvet" saludable', category: 'bloque-2', content: bloque2Recipes['b2-6'] },
+  { id: 'b2-7', title: 'Budín proteico de yogur y frutos secos', category: 'bloque-2', content: bloque2Recipes['b2-7'] },
+  { id: 'b2-8', title: 'Torta de cacao y calabaza (sin mantequilla)', category: 'bloque-2', content: bloque2Recipes['b2-8'] },
+  { id: 'b2-9', title: 'Mini tortas de coco y limón', category: 'bloque-2', content: bloque2Recipes['b2-9'] },
+  { id: 'b2-10', title: 'Muffins de cacao y banana (sin azúcar refinada)', category: 'bloque-2', content: bloque2Recipes['b2-10'] },
+  { id: 'b2-11', title: 'Budín de avena, pasas y miel', category: 'bloque-2', content: bloque2Recipes['b2-11'] },
+  { id: 'b2-12', title: 'Torta húmeda de manzana y avena', category: 'bloque-2', content: bloque2Recipes['b2-12'] },
   
   // Bloque 3
   { id: 'b3-1', title: 'Mousse de chocolate sin azúcar (versión con aguacate)', category: 'bloque-3' },
