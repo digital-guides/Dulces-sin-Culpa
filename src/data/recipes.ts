@@ -11,7 +11,8 @@ export const categories = [
     title: 'Bizcochuelos y panes dulces',
     description: 'Texturas suaves, aromas caseros y combinaciones que perfuman la cocina.',
     icon: '🧁',
-    color: 'from-amber-400 to-orange-500'
+    color: 'from-amber-400 to-orange-500',
+    image: '/images/bloque-1.jpg'
   },
   {
     id: 'bloque-2',
@@ -36,20 +37,22 @@ export const categories = [
   }
 ];
 
+import { bloque1Recipes } from './bloque1-recipes';
+
 export const recipes: Recipe[] = [
   // Bloque 1
-  { id: 'b1-1', title: 'Bizcochuelo clásico de vainilla sin gluten', category: 'bloque-1' },
-  { id: 'b1-2', title: 'Bizcochuelo esponjoso de chocolate y almendra', category: 'bloque-1' },
-  { id: 'b1-3', title: 'Pan dulce de miel y canela', category: 'bloque-1' },
-  { id: 'b1-4', title: 'Pan de banana y nuez saludable', category: 'bloque-1' },
-  { id: 'b1-5', title: 'Pan de zanahoria con avena y coco', category: 'bloque-1' },
-  { id: 'b1-6', title: 'Pan de naranja y almendra glaseado', category: 'bloque-1' },
-  { id: 'b1-7', title: 'Bizcochuelo marmolado sin gluten', category: 'bloque-1' },
-  { id: 'b1-8', title: 'Pan dulce cítrico con semillas de amapola', category: 'bloque-1' },
-  { id: 'b1-9', title: 'Bizcochuelo de limón y yogur vegetal', category: 'bloque-1' },
-  { id: 'b1-10', title: 'Pan de manzana y canela', category: 'bloque-1' },
-  { id: 'b1-11', title: 'Pan dulce de coco y vainilla', category: 'bloque-1' },
-  { id: 'b1-12', title: 'Bizcochuelo proteico de claras y almendra', category: 'bloque-1' },
+  { id: 'b1-1', title: 'Bizcochuelo clásico de vainilla sin gluten', category: 'bloque-1', content: bloque1Recipes['b1-1'] },
+  { id: 'b1-2', title: 'Bizcochuelo esponjoso de chocolate y almendra', category: 'bloque-1', content: bloque1Recipes['b1-2'] },
+  { id: 'b1-3', title: 'Pan dulce de miel y canela', category: 'bloque-1', content: bloque1Recipes['b1-3'] },
+  { id: 'b1-4', title: 'Pan de banana y nuez saludable', category: 'bloque-1', content: bloque1Recipes['b1-4'] },
+  { id: 'b1-5', title: 'Pan de zanahoria con avena y coco', category: 'bloque-1', content: bloque1Recipes['b1-5'] },
+  { id: 'b1-6', title: 'Pan de naranja y almendra glaseado', category: 'bloque-1', content: bloque1Recipes['b1-6'] },
+  { id: 'b1-7', title: 'Bizcochuelo marmolado sin gluten', category: 'bloque-1', content: bloque1Recipes['b1-7'] },
+  { id: 'b1-8', title: 'Pan dulce cítrico con semillas de amapola', category: 'bloque-1', content: bloque1Recipes['b1-8'] },
+  { id: 'b1-9', title: 'Bizcochuelo de limón y yogur vegetal', category: 'bloque-1', content: bloque1Recipes['b1-9'] },
+  { id: 'b1-10', title: 'Pan de manzana y canela', category: 'bloque-1', content: bloque1Recipes['b1-10'] },
+  { id: 'b1-11', title: 'Pan dulce de coco y vainilla', category: 'bloque-1', content: bloque1Recipes['b1-11'] },
+  { id: 'b1-12', title: 'Bizcochuelo proteico de claras y almendra', category: 'bloque-1', content: bloque1Recipes['b1-12'] },
   
   // Bloque 2
   { id: 'b2-1', title: 'Torta húmeda de cacao y remolacha', category: 'bloque-2' },
