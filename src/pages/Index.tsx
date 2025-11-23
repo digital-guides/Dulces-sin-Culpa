@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Search, ChefHat } from 'lucide-react';
+import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { categories, recipes } from '@/data/recipes';
 import CategoryGrid from '@/components/CategoryGrid';
 import RecipeList from '@/components/RecipeList';
 import RecipeDetail from '@/components/RecipeDetail';
 import PWAInstallPrompt from '@/components/PWAInstallPrompt';
+import logoMatilda from '@/assets/logo-matilda.png';
 
 const Index = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -45,7 +46,11 @@ const Index = () => {
             animate={{ opacity: 1, y: 0 }}
             className="flex items-center justify-center gap-3"
           >
-            <ChefHat className="w-8 h-8 text-primary-foreground" />
+            <img 
+              src={logoMatilda} 
+              alt="Las Recetas de Matilda" 
+              className="w-12 h-12 md:w-14 md:h-14 object-contain"
+            />
             <div className="text-center">
               <h1 className="text-2xl md:text-3xl font-bold text-primary-foreground">
                 Dulces sin Culpa
