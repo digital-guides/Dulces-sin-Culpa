@@ -14,9 +14,12 @@ const Index = () => {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedRecipe, setSelectedRecipe] = useState<string | null>(null);
 
-  const filteredRecipes = recipes.filter(recipe => 
-    recipe.title.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredRecipes = recipes.filter(recipe => {
+    const query = searchQuery.toLowerCase();
+    const titleMatch = recipe.title.toLowerCase().includes(query);
+    const contentMatch = recipe.content?.toLowerCase().includes(query) || false;
+    return titleMatch || contentMatch;
+  });
 
   const handleCategorySelect = (categoryId: string) => {
     setSelectedCategory(categoryId);
