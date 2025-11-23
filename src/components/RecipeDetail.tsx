@@ -80,7 +80,7 @@ const RecipeDetail = ({ recipe, onBack }: RecipeDetailProps) => {
           <CardContent className="prose prose-lg max-w-none">
             {recipe.content ? (
               <div 
-                className="text-foreground"
+                className="text-foreground [&_h3]:text-foreground [&_h3]:font-bold [&_ul]:list-disc [&_ul]:pl-6 [&_ul]:space-y-2 [&_ul]:mb-6 [&_ol]:list-decimal [&_ol]:pl-6 [&_ol]:space-y-2 [&_ol]:mb-6 [&_li]:text-foreground [&_.bg-accent\\/10]:bg-accent/10 [&_.bg-accent\\/10]:p-4 [&_.bg-accent\\/10]:rounded-lg [&_.bg-accent\\/10]:mt-4"
                 dangerouslySetInnerHTML={{ __html: recipe.content }}
               />
             ) : (
