@@ -27,7 +27,8 @@ export const categories = [
     title: 'Postres saludables y fríos',
     description: 'Alternativas ligeras y deliciosas para cerrar las comidas o disfrutar en verano.',
     icon: '🍮',
-    color: 'from-cyan-400 to-blue-500'
+    color: 'from-cyan-400 to-blue-500',
+    image: '/images/bloque-3.webp'
   },
   {
     id: 'bloque-4',
@@ -40,6 +41,7 @@ export const categories = [
 
 import { bloque1Recipes } from './bloque1-recipes';
 import { bloque2Recipes } from './bloque2-recipes';
+import { bloque3Recipes } from './bloque3-recipes';
 
 export const recipes: Recipe[] = [
   // Bloque 1
@@ -71,18 +73,18 @@ export const recipes: Recipe[] = [
   { id: 'b2-12', title: 'Torta húmeda de manzana y avena', category: 'bloque-2', content: bloque2Recipes['b2-12'] },
   
   // Bloque 3
-  { id: 'b3-1', title: 'Mousse de chocolate sin azúcar (versión con aguacate)', category: 'bloque-3' },
-  { id: 'b3-2', title: 'Flan de coco y miel sin lácteos', category: 'bloque-3' },
-  { id: 'b3-3', title: 'Crumble de manzana sin harina de trigo', category: 'bloque-3' },
-  { id: 'b3-4', title: 'Brownies sin harina (con batata o porotos negros)', category: 'bloque-3' },
-  { id: 'b3-5', title: 'Tarta fría de yogur vegetal y frutos rojos', category: 'bloque-3' },
-  { id: 'b3-6', title: 'Budín frío de chía y vainilla', category: 'bloque-3' },
-  { id: 'b3-7', title: 'Postre "tres capas" de cacao, banana y crema vegetal', category: 'bloque-3' },
-  { id: 'b3-8', title: 'Trufas energéticas de cacao y dátiles', category: 'bloque-3' },
-  { id: 'b3-9', title: 'Cheesecake saludable sin horno', category: 'bloque-3' },
-  { id: 'b3-10', title: 'Copa cremosa de mango y coco', category: 'bloque-3' },
-  { id: 'b3-11', title: 'Mousse de maracuyá sin lácteos', category: 'bloque-3' },
-  { id: 'b3-12', title: 'Pudding de avena y cacao', category: 'bloque-3' },
+  { id: 'b3-1', title: 'Mousse de chocolate sin azúcar (versión con aguacate)', category: 'bloque-3', content: bloque3Recipes['b3-1'] },
+  { id: 'b3-2', title: 'Flan de coco y miel sin lácteos', category: 'bloque-3', content: bloque3Recipes['b3-2'] },
+  { id: 'b3-3', title: 'Crumble de manzana sin harina de trigo', category: 'bloque-3', content: bloque3Recipes['b3-3'] },
+  { id: 'b3-4', title: 'Brownies sin harina (con batata o porotos negros)', category: 'bloque-3', content: bloque3Recipes['b3-4'] },
+  { id: 'b3-5', title: 'Tarta fría de yogur vegetal y frutos rojos', category: 'bloque-3', content: bloque3Recipes['b3-5'] },
+  { id: 'b3-6', title: 'Budín frío de chía y vainilla', category: 'bloque-3', content: bloque3Recipes['b3-6'] },
+  { id: 'b3-7', title: 'Postre "tres capas" de cacao, banana y crema vegetal', category: 'bloque-3', content: bloque3Recipes['b3-7'] },
+  { id: 'b3-8', title: 'Trufas energéticas de cacao y dátiles', category: 'bloque-3', content: bloque3Recipes['b3-8'] },
+  { id: 'b3-9', title: 'Cheesecake saludable sin horno', category: 'bloque-3', content: bloque3Recipes['b3-9'] },
+  { id: 'b3-10', title: 'Copa cremosa de mango y coco', category: 'bloque-3', content: bloque3Recipes['b3-10'] },
+  { id: 'b3-11', title: 'Mousse de maracuyá sin lácteos', category: 'bloque-3', content: bloque3Recipes['b3-11'] },
+  { id: 'b3-12', title: 'Pudding de avena y cacao', category: 'bloque-3', content: bloque3Recipes['b3-12'] },
   
   // Bloque 4
   { id: 'b4-1', title: 'Cookies de avena y chips de chocolate sin gluten', category: 'bloque-4' },
